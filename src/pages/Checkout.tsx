@@ -23,7 +23,7 @@ import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Textarea } from "@/components/ui/textarea";
 import { useCartStore } from "@/stores/usecardstore";
-import { useOrderStore, formatCurrency } from "@/stores/useorderstore";
+import { useOrderStore, formatCurrency } from "@/stores/useOrderStore";
 import { useAuthStore } from "@/stores/useAuthStore";
 import toast from "react-hot-toast";
 
